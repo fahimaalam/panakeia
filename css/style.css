@@ -1,0 +1,1166 @@
+/*
+Author Name: Fahima Alam;
+Mail Address:fahima.arefeen@gmail.com;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+====Index====
+1. Home
+2. About
+3. Portfolio
+4. Services
+5. Reviews
+6. Pricing
+7. Blog
+8. Contact
+9. Media Query
+*/
+/*********************** THEME CSS FILE***********************/
+/*********************** Global CSS ***********************/
+body{
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  font-size: 85px;
+  margin: 100px 0px 20px 0px;
+  font-weight: bold;
+  color: #ffffff;
+}
+h2{
+  margin: 100px 0px 10px 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+h3{
+  font-size: 33px;
+  margin: 70px 0px 0px 0px;
+}
+h5{
+  font-size: 23px;
+  margin: 25px 0px 0px 0px;
+  color: #ffffff;
+}
+h6{
+  color: white;
+  font-size: 25px;
+  margin: 0px 0px 100px 0px;
+  color: #ffffff;
+}
+p {
+  font-size: 15px;
+  padding: 20px 40px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+}
+/*********************** Buttons CSS ***********************/
+.btn{
+  display: block;
+  margin: 0 auto;
+  background-color:#ffffff;
+  border: none;
+  padding: 6px 25px;
+  color: #612316;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+/******************* Navbar Section ******************/
+.bg-dark {
+  background-color: #EDEFF1 !important;
+  padding: 30px 0px 20px 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #333333;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  background-color: #DD4B2B;
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 15px!important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  background-color: #198754;
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+}
+/******************* Hero Section ******************/
+.hero{
+  background: url(../img/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 75px;
+}
+.hero-overlay{
+  background-color: #00000094;
+}
+.hero-header{
+  text-align: center;
+}
+.hero-content{
+  display: flex;
+}
+.hero-one{
+  text-align: center;
+}
+.hero-img{
+  border: 2px solid transparent;
+  border-radius: 100px;
+  margin: 40px 0px 0px 0px
+}
+.hero-btn{
+  margin: 90px 0px 75px 0px;
+}
+
+/******************* About Section ******************/
+.about{
+  color: #333333;
+  background-color: #EDEFF1;
+}
+.about-header{
+  text-align: center;
+}
+.about-header h6{
+}
+.about-header p{
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.about-content{
+  display: flex;
+  margin: 40px 0px 150px 0px;
+}
+.about-one{
+  padding: 0px 0px 0px 50px;
+}
+.about-content h5{
+  text-align: center;
+  color: #333333;
+}
+.about-content p{
+  text-align: center;
+  color: #333333;
+}
+.about-btn{
+  display: block;
+  margin: 0 auto;
+  background-color:#ffffff;
+  border: none;
+  padding: 6px 25px;
+  color: #612316;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.about-btn:hover{
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+/******************** Events Section Start********************/
+.events{
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.overlay{
+  background-color: #0000005e;
+}
+.events-content{
+  margin: 100px 0px 210px 0px;
+  text-align: center;
+}
+.events-header{
+}
+.events-header h2{
+  margin: 75px 0px 10px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+.events-header p{
+  font-size: 18px;
+  padding: 20px 40px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+}
+.form-body{
+  color: #333333;
+}
+.form-control{
+  margin: 0px 0px 0px -55px;
+  background: #80808073;
+  color: #333333!important;
+  border-radius: 25px;
+  padding: 13px 25px;
+  position: relative;
+}
+.events-btn{
+  background-color:#ffffffd9;
+  border: none;
+  padding: 15px 42px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  position: absolute;
+  margin: -51px 0px 0px 129px;
+}  
+/*********************** Press CSS ***********************/
+.press{
+  margin: 100px 0px 100px 0px;
+}
+.press-content{
+  display: flex;
+}
+.press-one p{
+  color: #333333;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 110px 35px 0px;
+  text-align: left;
+}
+.press-two p{
+  color: #333333;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 110px 35px 0px;
+  text-align: left;
+}
+.press-btn{
+  background-color: #e69139;
+  border: none;
+  padding: 6px 17px;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 13px 0px 95px 0px;
+  border-radius: 5px;
+}
+.press-btn:hover{
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.press-img{
+  margin: 30px 0px 0px 0px;
+}
+.press-img-two{
+ margin: 35px 0px 0px 100px;
+}
+
+/******************** Career Section Start********************/
+.career{
+  background: url(../img/career1.jpg);
+}
+.career-overlay{
+  background-color: #333333ad;
+}
+.career-content{
+  display: flex;
+}
+.career-one{
+  padding: 0px 0px 50px 0px;
+}
+.career-one h6{
+  color: #ffffff!important;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+.career-one h6:hover{
+  border-bottom: 3px dotted #e69139;
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+.career-text{
+  text-align: center;
+}
+.career-text span{
+  display: block;
+  width: 15%!important;
+  margin: 0px auto;
+  border: 2px solid #e69139;
+}
+.career-text h2{
+  margin: 95px 0px 30px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.career-text p{
+  font-size: 17px;
+  padding: 20px 40px 50px 40px;
+  text-align: center;
+  font-weight: lighter;
+  color: #ffffff;
+}
+.career-btn{
+  background-color: #333333;
+  border: none;
+  padding: 50px 17px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0px 0px 0px;
+  letter-spacing: 2px;
+}
+.career-btn:hover{
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+small{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+/******************** Career Section Start********************/
+.contact{
+  background: url(../img/contact.jpg);
+}
+.contact-overlay{
+  background-color: #333333ad;
+}
+.contact-text h2{
+  margin: 95px 0px 30px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.contact-text p{
+  font-size: 17px;
+  padding: 20px 40px 50px 40px;
+  text-align: center;
+  font-weight: lighter;
+  color: #ffffff;
+}
+/******************** Footer Section Start********************/
+footer{
+  background: rgb(33, 37, 41);
+  padding: 25px 0px 25px 0px;
+}
+.footer-content{
+  color: white;
+  font-size: 22px;
+  font-family: 'Water Brush', cursive;
+  text-align: center;
+}
+
+/***************************************************** Media Query ******************************************************************/ 
+/******************************Small Device (PHONES)  ***********************************/ 
+@media(min-width: 320px) and (max-width: 600px){
+h1 {
+  font-size: 64px;
+  margin: 75px 0px 20px 0px;
+}
+h6 {
+  font-size: 20px;
+  margin: 0px 0px 30px 0px;
+}
+.hero-content {
+  display: block!important;
+  margin-bottom: 35px!important;
+}
+.hero-btn {
+  margin: 0px 0px 55px 0px;
+}
+h2 {
+  margin: 55px 0px 10px 0px;
+  font-size: 34px;
+}
+.about-header p {
+  font-size: 15px;
+}
+.about-content {
+  display: block;
+  margin: 0px 0px 60px 0px;
+}
+.about-one {
+  padding: 20px 0px 0px 0px;
+}
+.menu-content {
+  display: block;
+}
+.menu-img {
+  margin: 34px 0px 0px 0px;
+  width: 200px;
+  height: 500px;
+}
+.menu-header h2 {
+  margin: 50px 0px 20px 0px;
+  font-size: 35px;
+  text-align: center;
+}
+.menu-header span {
+  display: block;
+  margin: 0 auto;
+}
+.menu-header p {
+  margin: 10px 0px 0px 0px !important;
+  text-align: center;
+}
+.menu-icons {
+  margin: -16px 0px 0px 0px !important;
+}
+.menu-btn {
+  margin: 13px 0px 95px 78px;
+}
+.events-header h2 {
+  margin: 0px 0px 10px 0px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.form-control {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+.events-btn {
+  padding: 16px 42px;
+  font-size: 12px;
+  position: absolute;
+  margin: -51px 0px 0px 23px;
+}
+.press-content {
+  display: block;
+}
+h3 {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.press-one p {
+  padding: 0px 45px 35px 60px;
+}
+.press-btn {
+  margin: 0 auto;
+  display: block;
+} 
+.press-img-two {
+  margin: 35px 0px 30px 0px;
+} 
+.press-two p {
+  padding: 0px 45px 35px 60px;
+}
+.fa.fa-play-circle {
+  font-size: 35px;
+  margin: 0px 0px 0px 0px;
+}
+.content h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 2px 0px 14px 0px;
+}
+.content p {
+  font-size: 13px !important;
+  padding: 0px 0px !important;
+  margin: 10px 0px 0px 0px;
+}
+.video-btn {
+  font-size: 15px;
+}
+.phone-text h2 {
+  margin: 155px 0px 30px 0px;
+  font-size: 28px;
+}
+.phone-text p {
+  font-size: 15px;
+  padding: 20px 10px 0px 10px;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  padding: 20px 40px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+}
+.phone-content {
+  display: block;
+}
+.phone-img {
+  padding: 0px 0px 0px 0px;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 180px 0px 0px;
+}
+.phone-header h2 {
+  margin: 51px 0px 30px 0px;
+  font-size: 28px;
+  text-align: center;
+}
+.phone-header span {
+  display: block;
+  margin: 0 auto;
+}
+.phone-header p {
+  margin: 10px 0px 0px 0px !important;
+}
+.fa.fa-truck {
+  margin: 10px 0px 0px 55px !important;
+}
+.fa.fa-money{
+  margin: 10px 0px 0px 55px !important;
+}
+.reservation-text h2 {
+  margin: 80px 0px 30px 0px;
+  font-size: 31px;
+  text-align: center;
+}
+.reservation-text p {
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+.reservation-btn {
+  display: block;
+  margin: 0 auto;
+}
+.career-text h2 {
+  margin: 95px 0px 30px 0px;
+  font-size: 26px;
+  text-align: center;
+}
+.career-text p {
+  font-size: 16px;
+  padding: 20px 10px 50px 10px;
+} 
+.career-one h6 {
+  margin: 10px 8px 0px 0px;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+}
+
+@media(min-width: 340px) and (max-width: 360px){
+.events-btn {
+  margin: -51px 0px 0px 43px;
+}
+}
+@media(min-width: 361px) and (max-width: 375px){
+.events-btn {
+  margin: -51px 0px 0px 55px;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 163px 0px 0px;
+}
+}
+@media(min-width: 376px) and (max-width: 384px){
+.events-btn {
+  margin: -51px 0px 0px 75px;
+}
+.phone-header-img {
+  padding: 0px 265px 0px 0px;
+}
+}
+@media(min-width: 385px) and (max-width: 393px){
+.phone-header-img {
+  padding: 0px 300px 0px 0px;
+}
+}
+@media(min-width: 394px) and (max-width: 412px){
+.about-one {
+  padding: 20px 0px 0px 17px;
+}
+.menu-img {
+  margin: 34px 0px 0px 60px;
+}
+.events-btn {
+  margin: -51px 0px 0px 75px;
+}
+}
+@media(min-width: 413px) and (max-width: 490px){
+.about-one {
+  padding: 20px 0px 0px 33px;
+}
+.about-content h5 {
+  margin: 13px 0px 0px -42px;
+}
+.about-content p {
+  margin: 13px 0px 0px -42px;
+}
+.about-btn {
+  margin: 13px 0px 0px 110px;
+}
+.menu-img {
+  margin: 34px 0px 0px 60px;
+}
+.events-btn {
+  margin: -51px 0px 0px 75px;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 200px 0px 0px;
+}
+@media(min-width: 487px) and (max-width: 490px){
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 280px 0px 0px;
+}
+}
+@media(min-width: 491px) and (max-width: 512px){
+.about-one {
+  padding: 20px 0px 0px 40px;
+}
+.menu-img {
+  margin: 34px 0px 0px 100px;
+}
+.events-btn {
+  margin: -51px 0px 0px 115px;
+}
+}@media(min-width: 512px) and (max-width: 600px){
+.about-one {
+  padding: 20px 0px 0px 70px;
+}
+.about-content h5 {
+  margin: 13px 0px 0px -93px;
+}
+.about-content p {
+  margin: 13px 0px 0px -93px;
+}
+.about-btn {
+  margin: 13px 0px 0px 110px;
+}
+.menu-img {
+  margin: 34px 0px 0px 100px;
+}
+.events-btn {
+  margin: -51px 0px 0px 137px;
+}
+.phone-header-img {
+  padding: 0px 355px 0px 0px;
+}
+}
+/****************************** Medium Device (TABLETS)  ***********************************/ 
+@media(min-width: 601px) and (max-width: 768px){
+.hero-content {
+  display: block;
+}
+.about-content {
+  display: block;
+  margin: 0px 0px 60px 0px;
+}
+.about-one {
+  padding: 20px 0px 0px 0px;
+}
+.about-one {
+  padding: 20px 0px 0px 90px;
+}
+.about-content h5 {
+  margin: 13px 0px 0px -93px;
+}
+.about-content p {
+  margin: 13px 0px 0px -93px;
+}
+.about-btn {
+  margin: 13px 0px 0px 110px;
+}
+.menu-content {
+  display: block;
+}
+.menu-img {
+  margin: 34px 0px 0px 0px;
+  width: 200px;
+  height: 500px;
+}
+.menu-header h2 {
+  margin: 50px 0px 20px 0px;
+  font-size: 35px;
+  text-align: center;
+}
+.menu-header span {
+  display: block;
+  margin: 0 auto;
+}
+.menu-header p {
+  margin: 10px 0px 0px 0px !important;
+  text-align: center;
+}
+.menu-icons {
+  margin: -16px 0px 0px 0px !important;
+}
+.menu-btn {
+  margin: 55px 0px 95px 0px!important;
+}
+.menu-img {
+  margin: 34px 0px 0px 0px;
+}
+.menu-header h2 {
+  margin: 50px 0px 30px 0px;
+  font-size: 29px;
+}
+.menu-header p {
+  margin: 10px 0px 0px -12px !important;
+}
+.menu-icons {
+  margin: -16px 0px 0px -60px !important;
+}
+.menu-btn {
+  margin: 55px 0px 95px -63px;
+}
+.events-header h2 {
+  margin: 0px 0px 10px 0px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.form-control {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+.events-btn {
+  padding: 15px 42px;
+  margin: -51px 0px 0px 129px;
+}
+.press-content {
+  display: block;
+}
+h3 {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.press-one p {
+  padding: 0px 45px 35px 60px;
+}
+.press-btn {
+  margin: 0 auto;
+  display: block;
+} 
+.press-img-two {
+  margin: 35px 0px 30px 0px;
+} 
+.press-two p {
+  padding: 0px 45px 35px 60px;
+}
+.fa.fa-play-circle {
+  font-size: 35px;
+  margin: 0px 0px 0px 0px;
+}
+.content h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 2px 0px 14px 0px;
+}
+.content p {
+  font-size: 13px !important;
+  padding: 0px 0px !important;
+  margin: 10px 0px 0px 0px;
+}
+.video-btn {
+  font-size: 15px;
+}
+.phone-text h2 {
+  margin: 155px 0px 30px 0px;
+  font-size: 28px;
+}
+.phone-content {
+  display: block;
+}
+.phone-img {
+  padding: 0px 325px 0px 0px;
+}
+.phone-header h2 {
+  margin: 51px 0px 30px 0px;
+  font-size: 28px;
+  text-align: center;
+}
+.phone-header span {
+  display: block;
+  margin: 0 auto;
+}
+.phone-header p {
+  margin: 10px 0px 0px 0px !important;
+}
+.fa.fa-truck {
+  margin: 10px 0px 0px 55px !important;
+}
+.fa.fa-money{
+  margin: 10px 0px 0px 55px !important;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 370px 0px 0px;
+}
+.reservation-text h2 {
+  text-align: center;
+}
+.reservation-text p {
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+.reservation-btn {
+  display: block;
+  margin: 0 auto;
+}
+.career-one {
+  padding: 0px 40px 50px 40px;
+}
+
+}
+
+/****************************** Large Device (LAPTOPS - small screen size)  ***********************************/ 
+@media(min-width: 769px) and (max-width: 992px){
+.hero-content {
+  display: flex;
+}
+p {
+  padding: 20px 10px;
+} 
+.events-btn {
+  margin: -51px 0px 0px -31px;
+}
+.press-content {
+  display: block;
+}
+h3 {
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  font-size: 25px;
+}
+.press-one p {
+  padding: 0px 27px 35px 0px;
+  font-size: 15px;
+}
+.press-btn {
+  margin: 0 auto;
+  display: block;
+} 
+.press-content {
+  display: flex;
+}
+.press-two{
+  margin: 50px 0px 0px 50px;
+}
+.press-img-two {
+  margin: 80px 0px 0px 0px;
+}
+.press-two p {
+  padding: 0px 0px 35px 60px;
+  font-size: 15px;
+}
+.fa.fa-play-circle {
+  font-size: 35px;
+  margin: 65px 0px 0px 0px;
+}
+.content h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 2px 0px 14px 0px;
+}
+.content p {
+  font-size: 13px !important;
+  padding: 0px 0px !important;
+  margin: 10px 0px 0px 0px;
+}
+.video-btn {
+  font-size: 15px;
+}
+.phone-text h2 {
+  margin: 155px 0px 30px 0px;
+  font-size: 28px;
+}
+.phone-content {
+  display: flex;
+}
+.phone-img {
+  padding: 0px 60px 0px 0px;
+}
+.phone-header h2 {
+  margin: 51px 0px 28px -85px;
+  font-size: 28px;
+}
+.phone-header span {
+  margin: 51px 0px 28px -85px;
+}
+.phone-header p {
+  margin: 10px 0px 0px -85px !important;
+}
+.fa.fa-truck {
+  margin: 10px 0px 0px -85px !important;
+}
+.fa.fa-money{
+  margin: 10px 0px 0px -85px !important;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px 50px !important;
+  padding: 0px 370px 0px 0px;
+}
+.truck h3 {
+  margin: 17px 0px 0px 0px;
+  font-size: 18px;
+}
+.truck h3 small {
+  font-size: 12px;
+}
+.phone-header-img {
+  display: flex;
+  margin: 10px 0px 0px -85px !important;
+  padding: 0px 0px 0px 0px;
+}
+.reservation-text h2 {
+  text-align: center;
+}
+.reservation-text p {
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+.reservation-btn {
+  display: block;
+  margin: 0 auto;
+}
+} 
+
+@media(min-width: 800px) and (max-width: 992px){
+h1 {
+  font-size: 64px;
+  margin: 75px 0px 20px 0px;
+}
+h6 {
+  font-size: 20px;
+  margin: 0px 0px 30px 0px;
+}
+.hero-content {
+  margin-bottom: 35px!important;
+}
+.hero-btn {
+  margin: 0px 0px 55px 0px;
+}
+.hero-img {
+  padding: 30px!important;
+}
+h2 {
+  margin: 55px 0px 10px 0px;
+  font-size: 34px;
+}
+.events-btn {
+  margin: -51px 0px 0px -23px;
+}
+.menu-img {
+  margin: 34px 0px 0px 30px;
+}
+.menu-header h2 {
+  margin: 50px 0px 0px 0px;
+  font-size: 28px;
+}
+.menu-header span {
+  margin: 20px 0px 0px 0px;
+}
+.menu-header p {
+  margin: 10px 0px 0px 0px !important;
+}
+.menu-icons {
+  margin: -16px 0px 0px -66px !important;
+}
+.menu-btn {
+  margin: 46px 0px 95px -73px;
+}
+}
+
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 993px) and (max-width: 1200px){
+.events-btn {
+  margin: -51px 0px 0px 35px;
+}
+.menu-img {
+  margin: 34px 0px 0px 30px;
+}
+.menu-header h2 {
+  margin: 50px 0px 0px 0px;
+  font-size: 28px;
+}
+.menu-header span {
+  margin: 20px 0px 0px 0px;
+}
+.menu-header p {
+  margin: 10px 0px 0px 0px !important;
+}
+.menu-icons {
+  margin: -16px 0px 0px -66px !important;
+}
+.menu-btn {
+  margin: 46px 0px 95px -73px;
+}
+.fa.fa-play-circle {
+  margin: 55px 0px 0px 0px;
+}
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1201px) and (max-width: 1399px){
+.events-btn {
+  margin: -51px 0px 0px 93px;
+}
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1400px){
+.events-btn {
+  margin: -51px 0px 0px 129px;
+}
+}
+/************************************************************ END  *****************************************************************/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************** Media Query ******************************************************************/ 
+/******************************Small Device (PHONES)  ***********************************/ 
+@media(min-width: 320px) and (max-width: 600px){
+.navbar-nav .nav-link {
+  text-align: center;
+}
+.btn-outline-success{
+  display: block;
+  margin: 0 auto;
+}
+.hero-content{
+  display: block;
+  margin-bottom: 335px;
+}
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+
+}
+@media(min-width: 361px) and (max-width: 675px){
+
+}
+@media(min-width: 376px) and (max-width: 384px){
+
+}
+@media(min-width: 385px) and (max-width: 393px){
+
+}
+@media(min-width: 394px) and (max-width: 412px){
+
+}
+@media(min-width: 413px) and (max-width: 490px){
+
+}
+@media(min-width: 491px) and (max-width: 512px){
+
+}@media(min-width: 512px) and (max-width: 600px){
+
+}
+/****************************** Medium Device (TABLETS)  ***********************************/ 
+@media(min-width: 601px) and (max-width: 768px){
+}
+
+/****************************** Large Device (LAPTOPS - small screen size)  ***********************************/ 
+@media(min-width: 769px) and (max-width: 992px){
+
+} 
+
+@media(min-width: 800px) and (max-width: 810px){
+
+}
+
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 993px) and (max-width: 1200px){
+
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1201px) and (max-width: 1399px){
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1400px){
+
+}
+/************************************************************ END  *****************************************************************/ 
+/************************************************************ END  *****************************************************************/ 
